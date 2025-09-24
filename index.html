@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ferramentas e Aplicações para Pesquisa e Setor Portuário</title>
+  <meta name="description" content="Ferramentas e Aplicações para Pesquisa e Setor Portuário — UFMA / SDG Hub">
+  <style>
+    :root {
+      --bg: #083d2d;
+      --ink: #ffffff;
+      --muted: #d3f3e7;
+      --card: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.18);
+      --accent: #a6ffe1;
+      --btn: rgba(255,255,255,.08);
+      --btn-hover: rgba(255,255,255,.18);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 28px; }
+    header { border: 1px solid var(--border); background: linear-gradient(135deg, rgba(0,0,0,.15), rgba(0,0,0,.0)); border-radius: 18px; padding: 26px; margin: 14px 0 22px; }
+    h1 { margin: 0 0 10px; font-size: 1.9rem; }
+    .lead p { margin: 8px 0; color: var(--muted); }
+    .panel { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 16px; }
+    @media (min-width: 760px) { .panel { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 980px) { .panel { grid-template-columns: 1fr 1fr 1fr; } }
+    .card-link { display: flex; align-items: center; gap: 10px; padding: 14px 16px; background: var(--card); border: 1px solid var(--border); border-radius: 14px; text-decoration: none; color: var(--ink); }
+    .card-link:hover { background: rgba(255,255,255,0.1); }
+    .card-link .emoji { font-size: 1.2rem; }
+    .card-link .name { font-weight: 600; }
+    .tool-section { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 18px; margin: 16px 0; }
+    h2 { margin: 0 0 8px; font-size: 1.2rem; }
+    .btn { display: inline-block; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--btn); color: var(--ink); text-decoration: none; }
+    .btn:hover { background: var(--btn-hover); }
+    .btn.ghost { background: transparent; }
+    footer { opacity: .8; color: var(--muted); margin: 26px 0 8px; text-align: center; }
+  </style>
+</head>
+<body id="top">
+  <div class="wrap">
+    <header>
+      <h1>Ferramentas e Aplicações para Pesquisa e Setor Portuário</h1>
+      <div class="lead">
+        <p>Sou Darliane Cunha, professora da Universidade Federal do Maranhão (UFMA) e líder do SDG Hub. Minha trajetória acadêmica e profissional é dedicada ao desenvolvimento de soluções inovadoras que conectam pesquisa científica, transformação digital e gestão sustentável no setor portuário.</p><p>Com base em estudos avançados sobre sustentabilidade, transição energética e governança portuária, desenvolvi um conjunto de ferramentas digitais interativas, criadas para apoiar tanto a produção científica quanto a tomada de decisão no setor portuário.</p><p>Essas aplicações têm como objetivo facilitar a análise de dados, democratizar o acesso a informações estratégicas e fortalecer a gestão sustentável em portos e cadeias logísticas. Elas podem ser utilizadas por pesquisadores, gestores, formuladores de políticas e empresas, funcionando como instrumentos práticos para promover inovação e alinhar práticas portuárias aos Objetivos de Desenvolvimento Sustentável (ODS).</p>
+      </div>
+      <div class="panel" aria-label="Acesso rápido às ferramentas">
+        
+        <a class="card-link" href="#textmining">
+          <span class="emoji">🛠️</span>
+          <span class="name">Assistente de Mineração de Texto</span>
+        </a>
+
+        <a class="card-link" href="#ods-atributos">
+          <span class="emoji">🌍</span>
+          <span class="name">Atributos ODS – Setor Portuário</span>
+        </a>
+
+        <a class="card-link" href="#trade">
+          <span class="emoji">📊</span>
+          <span class="name">Painel Global de Comércio Marítimo</span>
+        </a>
+
+        <a class="card-link" href="#movimentacao">
+          <span class="emoji">⚓</span>
+          <span class="name">Dashboard de Movimentação Portuária</span>
+        </a>
+
+        <a class="card-link" href="#exportacoes">
+          <span class="emoji">🚢</span>
+          <span class="name">Exportações Portuárias</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      
+        <section id="textmining" class="tool-section">
+          <h2>🛠️ Assistente de Mineração de Texto</h2>
+          <p>Ferramenta voltada para a análise de textos em arquivos PDF, permitindo identificar e destacar até três palavras-chave. Os resultados podem ser exportados em Word e Excel, o que facilita a organização de evidências em relatórios acadêmicos e técnicos.</p>
+          <p><a class="btn" href="https://textmininginput.streamlit.app/" target="_blank" rel="noopener">Acessar aplicativo</a> · <a class="btn ghost" href="#top">Voltar ao topo</a></p>
+        </section>
+        
+
+        <section id="ods-atributos" class="tool-section">
+          <h2>🌍 Atributos ODS – Setor Portuário</h2>
+          <p>Aplicativo desenvolvido para inclusão, gestão e acompanhamento de dados vinculados aos ODS, possibilitando organizar informações e monitorar indicadores de sustentabilidade em projetos portuários.</p>
+          <p><a class="btn" href="https://modeloods-ff6md9cyz5pfwinhzlupgm.streamlit.app/" target="_blank" rel="noopener">Acessar aplicativo</a> · <a class="btn ghost" href="#top">Voltar ao topo</a></p>
+        </section>
+        
+
+        <section id="trade" class="tool-section">
+          <h2>📊 Painel Global de Comércio Marítimo</h2>
+          <p>Ferramenta interativa para analisar os fluxos de carga no setor hidroviário brasileiro, detalhados por país e tipo de produto. O painel oferece insights sobre o comércio internacional, revelando a distribuição geográfica e tendências de volume.</p>
+          <p><a class="btn" href="https://globalmaritimetradedashboard.streamlit.app/" target="_blank" rel="noopener">Acessar painel</a> · <a class="btn ghost" href="#top">Voltar ao topo</a></p>
+        </section>
+        
+
+        <section id="movimentacao" class="tool-section">
+          <h2>⚓ Dashboard de Movimentação Portuária</h2>
+          <p>Painel interativo para analisar e visualizar as movimentações de cargas nos portos brasileiros, oferecendo uma visão abrangente da atividade portuária. Permite identificar tendências logísticas, gargalos e oportunidades de melhoria.</p>
+          <p><a class="btn" href="https://observatorio1.streamlit.app/" target="_blank" rel="noopener">Acessar dashboard</a> · <a class="btn ghost" href="#top">Voltar ao topo</a></p>
+        </section>
+        
+
+        <section id="exportacoes" class="tool-section">
+          <h2>🚢 Exportações Portuárias</h2>
+          <p>Ferramenta que apresenta um panorama das exportações marítimas movimentadas pelo setor portuário em 2023. O painel detalha os volumes de exportação por país e produto, permitindo compreender fluxos comerciais e distribuição das cargas.</p>
+          <p><a class="btn" href="https://portexports.streamlit.app/" target="_blank" rel="noopener">Acessar painel</a> · <a class="btn ghost" href="#top">Voltar ao topo</a></p>
+        </section>
+        
+    </main>
+    <footer>
+      <p>© 2025 · UFMA · SDG Hub · Desenvolvido por Darliane R. Cunha</p>
+    </footer>
+  </div>
+</body>
+</html>
